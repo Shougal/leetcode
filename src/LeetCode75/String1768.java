@@ -43,15 +43,16 @@ class String1768 {
         System.out.println(result);
 
     }
+    /**
+     * StringBuilder is optimal for string concatenation because it appends characters to an internal mutable
+     * char[] buffer, avoiding the creation of a new immutable String object on each operation.
+     */
     public String mergeAlternatively(String word1, String word2) {
 //        long startTime = System.nanoTime();
         int shortestLength;
         int remainingIndex;
         boolean isWord1Longer = false;
-        /**
-         * StringBuilder is optimal for string concatenation because it appends characters to an internal mutable
-         * char[] buffer, avoiding the creation of a new immutable String object on each operation.
-         */
+
         StringBuilder sb = new StringBuilder();
 
         if(word1.length()>word2.length()){
