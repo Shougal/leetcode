@@ -1,0 +1,62 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# ========================
+# Java build artifacts
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Compiled output
+/bin/
+/build/
+/out/
+/target/
+
+# ========================
+# IntelliJ IDEA
+# ========================
+.idea/
+*.iml
+*.iws
+
+# ========================
+# VS Code (optional)
+# ========================
+.vscode/
+
+# ========================
+# OS-specific files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Maven
+# ========================
+.mvn/
+!**/src/main/**/mvnw*
+!**/src/main/**/mvnw.cmd
+
+# ========================
+# Gradle
+# ========================
+.gradle/
+build/
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/

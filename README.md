@@ -1,2 +1,2 @@
 # leetcode
-Leet Code Solutions
+A compilation of all my Leet Code Solutions
